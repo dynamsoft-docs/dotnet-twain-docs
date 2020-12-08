@@ -8,7 +8,7 @@ needAutoGenerateSidebar: true
 
 # Troubleshooting
 
-## Why does the application crash when there is a large number of images in the buffer?
+## Why does the application crash when there is a large number of images in the buffer
 
 **Symptom:**
 
@@ -100,7 +100,7 @@ This KB is for Dynamic .NET TWAIN v7.x and higher only.
 
 Because the PDF you are trying to encrypt or merge has annotations on it. For now, Dynamic .NET TWAIN doesn't support this kind of PDF in `encrypt()` and `merge()` methods.
 
-## Why am I getting a watermark saying “Unlicensed Demo Version” on the image?
+## Why am I getting a watermark saying “Unlicensed Demo Version” on the image
 
 **Symptom:**
 
