@@ -1,0 +1,65 @@
+# replace the <full url of the public repository> with your repository url.
+# replace the <branch name> with the branch name used for publishing site, usually master branch.
+
+# repositoryUrl: <full url of the public repository>/blob/<branch name>
+repositoryUrl: https://github.com/Dynamsoft/dotnet-twain-docs/blob/main
+
+
+# Full url of the publicshed site without last '/'.
+# For example: the full url of dbr doc sit is https://www.dynamsoft.com/barcode-reader/
+# then set docFullPath with https://www.dynamsoft.com/barcode-reader
+
+# docFullPath: <full url of the published site> (eg - https://www.dynamsoft.com/barcode-reader)
+docFullPath: https://dynamsoft.github.io/dotnet-twain/docs
+
+# Relative path to first-level domain name without last '/'.
+# For example: the full url of dbr doc sit is https://www.dynamsoft.com/barcode-reader/
+# then set firstLevelUrl with /barcode-reader
+
+# firstLevelUrl: #<relative path to first-level domain> (eg - /barcode-reader)
+firstLevelUrl: /dotnet-twain/docs
+
+# docHomePage: #<relative path of homepage to first-level domain>
+# if index.md in the repo is the homepage, set the value same as firstLevelUrl.
+docHomePage: /dotnet-twain/docs
+
+# Notice the root of the path is the first-level domain, so the relative path shall be started 
+# with the first-level path rather than the root path of the repository.
+
+# Example variable:
+
+# sampleFolder: <firstLevelUrl>/sample-folder/
+imagecore-viewer-module: /dotnet-twain/docs/imagecore-viewer-module/
+twainscan-module: /dotnet-twain/docs/twainscan-module/
+camera-module: /dotnet-twain/docs/camera-module/
+pdf-module: /dotnet-twain/docs/pdf-module/
+ocr-module: /dotnet-twain/docs/ocr-module/
+troubleshooting: /dotnet-twain/docs/troubleshooting/
+upgrade-dotnet-twain: /dotnet-twain/docs/upgrade-dotnet-twain/
+
+
+# public resources.
+
+# assets: <firstLevelUrl>/assets/
+assets: /dotnet-twain/docs/assets/
+# edit_icon: <firstLevelUrl>/assets/img-icon/edit-icon.png
+edit_icon: /dotnet-twain/docs/assets/img-icon/edit-icon.png
+# smile_icon: <firstLevelUrl>/assets/img-icon/icon-smile.png
+smile_icon: /dotnet-twain/docs/assets/img-icon/icon-smile.png
+# sad_icon: <firstLevelUrl>/assets/img-icon/icon-sad.png
+sad_icon: /dotnet-twain/docs/assets/img-icon/icon-sad.png
+# dbr_icon: <firstLevelUrl>/assets/img-icon/icon-dbr.svg
+dbr_icon: /dotnet-twain/docs/assets/img-icon/icon-dbr.svg
+# dwt_icon: <firstLevelUrl>/assets/img-icon/icon-dwt.svg
+dwt_icon: /dotnet-twain/docs/assets/img-icon/icon-dwt.svg
+# dnt_icon: <firstLevelUrl>/assets/img-icon/icon-dnt.svg
+dnt_icon: /dotnet-twain/docs/assets/img-icon/icon-dnt.svg
+
+
+# Replace the <firstLevelUrl> with the value of firstLevelUrl defined above.
+
+# baseurl: "<firstLevelUrl>"
+baseurl: "/dotnet-twain/docs"
+
+plugins:
+  - jemoji
