@@ -94,10 +94,13 @@ m_TwainManager.LogLevel=1; // please change m_TwainManager according to your set
 3. Run Dbgview.exe.
 4. Then please reproduce the issue you are experiencing with Dynamic .NET TWAIN. The DebugView will record detailed information during the process, as shown below.
 5. Please click on Save to save the log file and send it to <support@dynamsoft.com>.
- We will then check the files and give you a proper solution.
+We will then check the files and give you a proper solution.
+
+
+
 
  ## Why did I get the exception "Could not open input file" when encrypt and merge pdf
-
+ 
 This KB is for Dynamic .NET TWAIN v7.x and higher only.
 
 Because the PDF you are trying to encrypt or merge has annotations on it. For now, Dynamic .NET TWAIN doesn't support this kind of PDF in `encrypt()` and `merge()` methods.
