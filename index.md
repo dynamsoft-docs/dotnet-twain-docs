@@ -20,19 +20,18 @@ breadcrumbText: Dynamic .NET TWAIN Docs
 - [Camera Module](camera-module/)
     - [How to rotate video](camera-module/how-to-rotate-video.md)
 
-- [PDF Module](pdf-module/)
-    - [PDF Module FAQ](pdf-module/pdf-module.md)
+- [PDF Module](pdf-module/pdf-module.md)
+
 
 - [OCR Module](ocr-module/)
     - [How to add other languages support in the OCR Demo](ocr-module/how-to-add-languages.md)
 
 
-- [Troubleshooting](troubleshooting/)
-    - [Troubleshooting](troubleshooting/troubleshooting.md)
+- [Troubleshooting](troubleshooting/troubleshooting.md)
 
 
-- [Upgrade Dynamic .NET TWAIN](upgrade-dotnet-twain/)
-    - [How to Upgrade](upgrade-dotnet-twain/how-to-upgrade.md)
-    
+
+- [Upgrade Dynamic .NET TWAIN](upgrade-dotnet-twain/how-to-upgrade.md)
+
 
 

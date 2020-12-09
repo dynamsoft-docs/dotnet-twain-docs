@@ -99,8 +99,8 @@ We will then check the files and give you a proper solution.
 
 
 
- ## Why did I get the exception "Could not open input file" when encrypt and merge pdf
- 
+## Why did I get the exception "Could not open input file" when encrypt and merge pdf
+
 This KB is for Dynamic .NET TWAIN v7.x and higher only.
 
 Because the PDF you are trying to encrypt or merge has annotations on it. For now, Dynamic .NET TWAIN doesn't support this kind of PDF in `encrypt()` and `merge()` methods.
