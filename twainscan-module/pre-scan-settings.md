@@ -21,7 +21,7 @@ Following is the sample code:
 ```c#
 for (short i = 0; i < m_TwainManager.SourceCount; i++)
 {
-    string PSourceName = "7500"; //"7500" is part of the source name   
+    string PSourceName = 7500"; //"7500" is part of the source name   
     if (m_TwainManager.SourceNameItems(i).IndexOf(PSourceName) != -1)
     {
         m_TwainManager.SelectSourceByIndex(i);
@@ -30,7 +30,7 @@ for (short i = 0; i < m_TwainManager.SourceCount; i++)
 }
 ```
 
-In the sample, we use a scanner named HP Scanjet Enterprise 7500. So the PSourceName can be “7500”.
+In the sample, we use a scanner named HP Scanjet Enterprise 7500. So the PSourceName can be "7500".
 
 Please change `PSourceName` accordingly. In order to select the right source as you wanted, please make sure that the PSourceName is unique to all the source.
 
