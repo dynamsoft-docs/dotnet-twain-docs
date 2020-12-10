@@ -12,6 +12,7 @@ needAutoGenerateSidebar: true
 There isn't a built-in thumbnail for Dynamic .NET TWAIN. To show the thumbnails, you can put two Dynamic .NET TWAIN Viewers on the form. Below is just one possible way to do this.
 
 1. Create the Viewers and bind it with ImageCore.
+
 ```c#
 m_CoreForImageViewer = new ImageCore();
 m_CoreForImageThum = new ImageCore();
@@ -21,6 +22,7 @@ dsViewerThum.Bind(m_CoreForImageThum);
 ```
 
 2. Add a function to update the thumbnail view with the original view.
+
 ```c#
 private void UpdateImageInfo()
    {
