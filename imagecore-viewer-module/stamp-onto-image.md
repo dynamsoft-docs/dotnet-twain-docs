@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: Sample Page
-keywords: sample, page
-description: sample page
+title: Stamp onto Images
+keywords: stamp, icon, text
+description: How to stamp text & icons onto acquired images in Dynamic .NET TWAIN
 needAutoGenerateSidebar: true
 ---
 
