@@ -1,6 +1,6 @@
-# Dynamic Web TWAIN Documentation
+# Dynamic .NET TWAIN Documentation
 
-This project is to store DWT documentation.
+This project is to store DNT documentation.
 
 
 

@@ -33,5 +33,7 @@ breadcrumbText: Dynamic .NET TWAIN Docs
 
 - [Upgrade Dynamic .NET TWAIN](upgrade-dotnet-twain/how-to-upgrade.md)
 
+- [Release Notes](release-notes/release-notes.md)
+
 
 
