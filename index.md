@@ -33,7 +33,7 @@ breadcrumbText: Dynamic .NET TWAIN Docs
 
 - [Upgrade Dynamic .NET TWAIN](upgrade-dotnet-twain/how-to-upgrade.md)
 
-- [API Reference](release-notes/api-reference.md)
+- [API Reference](api-reference/api-reference.md)
 
 - [Release Notes](release-notes/release-notes.md)
 
