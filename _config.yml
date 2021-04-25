@@ -36,6 +36,8 @@ pdf-module: /dotnet-twain/docs/pdf-module/
 ocr-module: /dotnet-twain/docs/ocr-module/
 troubleshooting: /dotnet-twain/docs/troubleshooting/
 upgrade-dotnet-twain: /dotnet-twain/docs/upgrade-dotnet-twain/
+api-reference: /dotnet-twain/docs/api-reference/
+release-notes: /dotnet-twain/docs/release-notes/
 
 
 # public resources.
