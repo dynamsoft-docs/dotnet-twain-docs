@@ -9,4 +9,6 @@ needAutoGenerateSidebar: true
 
 # API Reference
 
+## [Dynamic .NET TWAIN Help Documentation Online](https://www.dynamsoft.com/help/TWAIN/.Net-TWAIN-Scanner/api/R_Project_DynamicDotNetTWAIN.htm)
 
+## [Download CHM Help File to Local](https://www.dynamsoft.com/DOWNLOAD/DynamicDotNetTWAIN.zip)
