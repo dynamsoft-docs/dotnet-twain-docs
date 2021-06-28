@@ -14,4 +14,5 @@ breadcrumbText: ImageCore & Viewer Modules
 - [How to stamp text & icons onto acquired images in Dynamic .NET TWAIN](stamp-onto-image.md)
 - [How to zoom images using mouse wheel](zoom-by-mousewheel.md)
 - [How to automatically deskew an image](deskew-image.md)
+- [How to get the file size in the specified format](get-pdf-size.md)
 
