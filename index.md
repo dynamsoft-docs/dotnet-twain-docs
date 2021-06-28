@@ -9,10 +9,12 @@ breadcrumbText: Dynamic .NET TWAIN Docs
 # Dynamic .NET TWAIN Docs
 
 - [ImageCore & Viewer Modules](imagecore-viewer-module/)
+    - [How to create a thumbnail viewer](imagecore-viewer-module/thumbnail-viewer.md)
     - [How to save selected images as multi-page PDF](imagecore-viewer-module/save-multi-page-pdf.md)
     - [How to stamp text & icons onto acquired images in Dynamic .NET TWAIN](imagecore-viewer-module/stamp-onto-image.md)
     - [How to zoom images using mouse wheel](imagecore-viewer-module/zoom-by-mousewheel.md)
     - [How to automatically deskew an image](imagecore-viewer-module/deskew-image.md)
+    - [How to get the file size in the specified format](imagecore-viewer-module/get-pdf-size.md)
 
 - [TWAIN Scan Module](twainscan-module/)
     - [Pre-scan settings](twainscan-module/pre-scan-settings.md)
