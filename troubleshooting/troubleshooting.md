@@ -52,12 +52,12 @@ In this mode, the scanned images are transferred to a specified file directly. T
 
 1. Add LogLevel property to your codes before calling any Dynamic .NET TWAIN properties and methods, such as:
 
-```c#
-public Form_Name(){
-InitializeComponent();
-m_TwainManager.LogLevel=1; // please change m_TwainManager according to your setting
-}
-```
+    ```c#
+    public Form_Name(){
+    InitializeComponent();
+    m_TwainManager.LogLevel=1; // please change m_TwainManager according to your setting
+    }
+    ```
 
 2. Debug the code and open the Task Manager.
     Find the app progress under Progress - Apps and Dynamsoft Scanning New Module.
@@ -83,12 +83,12 @@ m_TwainManager.LogLevel=1; // please change m_TwainManager according to your set
 
 1. Add `LogLevel` property to your codes before calling any Dynamic .NET TWAIN properties and methods, such as:
 
-```c#
-public Form_Name(){
-InitializeComponent();
-m_TwainManager.LogLevel=1; // please change m_TwainManager according to your setting
-}
-```
+    ```c#
+    public Form_Name(){
+    InitializeComponent();
+    m_TwainManager.LogLevel=1; // please change m_TwainManager according to your setting
+    }
+    ```
 
 2. Download DebugView [here](http://technet.microsoft.com/en-us/sysinternals/bb896647), and unzip locally.
 3. Run Dbgview.exe.
