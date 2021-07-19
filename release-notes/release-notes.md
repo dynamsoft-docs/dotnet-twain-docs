@@ -9,6 +9,18 @@ needAutoGenerateSidebar: true
 
 # Stable Releases
 
+## 8.3 (07/19/2021)
+
+### NEW
+
+* Added support for .NET Core 3.1 and .NET 5.
+
+### FIXED
+
+* Fixed the bug that Scanner UI will close automatically after 2 minutes if nothing does.
+* Fixed the bug that the Ratio of Rectangle still changes after setting `SelectionRectAspectRatio`.
+* Fixed some other minor bugs.
+
 ## 8.1.2 (02/20/2020)
 
 ### NEW
