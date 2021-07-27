@@ -9,6 +9,12 @@ needAutoGenerateSidebar: true
 
 # Stable Releases
 
+## 8.3.3 (07/27/2021)
+
+### FIXED
+
+* Fixed some minor bugs about scanning.
+
 ## 8.3 (07/19/2021)
 
 ### NEW
@@ -17,7 +23,7 @@ needAutoGenerateSidebar: true
 
 ### FIXED
 
-* Fixed the bug that Scanner UI will close automatically after 2 minutes if nothing does.
+* Fixed the bug that the Scanner UI will close automatically after 2 minutes if nothing is done.
 * Fixed the bug that the Ratio of Rectangle still changes after setting `SelectionRectAspectRatio`.
 * Fixed some other minor bugs.
 
