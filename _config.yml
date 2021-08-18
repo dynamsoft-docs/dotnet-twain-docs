@@ -2,9 +2,9 @@
 # replace the <branch name> with the branch name used for publishing site, usually master branch.
 
 # repositoryUrl: <full url of the public repository>/blob/<branch name>
-repositoryUrl: https://github.com/Dynamsoft/dotnet-twain-docs/blob/main
+repositoryUrl: https://github.com/dynamsoft-docs/dotnet-twain-docs/blob/main
 
-repository: Dynamsoft/dotnet-twain-docs
+repository: dynamsoft-docs/dotnet-twain-docs
 
 # Full url of the publicshed site without last '/'.
 # For example: the full url of dbr doc sit is https://www.dynamsoft.com/barcode-reader/
