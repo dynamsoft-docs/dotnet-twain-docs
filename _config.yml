@@ -66,3 +66,12 @@ baseurl: "/dotnet-twain/docs"
 
 plugins:
   - jemoji
+  - jekyll-sitemap
+  
+defaults:
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
+
+url: "https://www.dynamsoft.com" # sitemap root
