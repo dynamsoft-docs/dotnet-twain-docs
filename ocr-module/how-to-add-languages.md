@@ -16,9 +16,9 @@ In our sample, it's *C:\Program Files (x86)\Dynamsoft\Dynamic .NET TWAIN {Versio
 
 3. Add the code in Form1_Load function.
 
-```c#
-languages.Add("Arabic", "ara"); // the first value represents the string shown in the form and the second one should be the same as the file name of the language package.
-```
+    ```c#
+    languages.Add("Arabic", "ara"); // the first value represents the string shown in the form and the second one should be the same as the file name of the language package.
+    ```
 
 4. Run the solution to see how it works
 
