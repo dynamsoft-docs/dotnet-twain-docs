@@ -181,7 +181,7 @@ needAutoGenerateSidebar: true
 
 * Other minor fixes and tweaks.
 
-# 6.1 (12/29/2015)
+## 6.1 (12/29/2015)
 
 ### NEW
 
