@@ -11,7 +11,7 @@ repository: dynamsoft-docs/dotnet-twain-docs
 # then set docFullPath with https://www.dynamsoft.com/barcode-reader
 
 # docFullPath: <full url of the published site> (eg - https://www.dynamsoft.com/barcode-reader)
-docFullPath: https://dynamsoft.github.io/dotnet-twain/docs
+docFullPath: https://www.dynamsoft.com/dotnet-twain/docs
 
 # Relative path to first-level domain name without last '/'.
 # For example: the full url of dbr doc sit is https://www.dynamsoft.com/barcode-reader/
