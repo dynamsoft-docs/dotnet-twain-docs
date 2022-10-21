@@ -203,7 +203,7 @@ needAutoGenerateSidebar: true
 
 * Fixed an issue where the core product is not compatible with the old barcode reader add-on.
 
-* Fixed an issue where `FocusOnArea` method doesn’t work when running the executable outside of Visual Studio.
+* Fixed an issue where `FocusOnArea` method doesn't work when running the executable outside of Visual Studio.
 
 * Other minor fixes and tweaks.
 

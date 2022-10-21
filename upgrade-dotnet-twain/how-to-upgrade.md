@@ -55,7 +55,7 @@ Step 6: Go to the bin folder of your solution and verify the modification date o
 
 ## From older versions to v7.x or higher
 
-From v7.0，the SDK has been completely re-constructed and separated into a few independent modules. Therefore, this new version is very different from any previous version. 
+From v7.0, the SDK has been completely re-constructed and separated into a few independent modules. Therefore, this new version is very different from any previous version. 
 
 If you are upgrading from v4.x/5.x/6/x to v7.x or higher version, we would suggest that you refer to the new version Developer's Guide and start from scratch.
 

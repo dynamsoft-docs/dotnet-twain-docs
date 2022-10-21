@@ -14,7 +14,7 @@ This KB is for Dynamic .NET TWAIN v7.x and higher only.
 
 Dynamic .NET TWAIN offers a method named `SelectSourceByIndex` which allows you to select the index of the source in `SourceNameItems` property as the current source.
 
-However, in some cases, you may want to select a source by source name. There isn’t such a method, but that can be achieved by a few lines of code.
+However, in some cases, you may want to select a source by source name. There isn't such a method, but that can be achieved by a few lines of code.
 
 Following is the sample code:
 
