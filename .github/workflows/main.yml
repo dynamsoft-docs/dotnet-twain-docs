@@ -34,4 +34,9 @@ jobs:
           cd DNTDoc && bundle exec jekyll build --incremental
           python3 /home/ubuntu/ftp.py /home/ubuntu/DNTDoc/_site/ ./www.dynamsoft.com/dotnet-twain/docs/ prod
 
+      - name: Trigger Webhook 
+        run: | 
+          curl -X POST -H "${{ secrets.WEBHOOK_USER }}" -H "${{ secrets.WEBHOOK_TOKEN }}" -H "Content-Type: application/json" -d "[\"/dotnet-twain/docs/*\"]" ${{ secrets.WEBHOOK_URL }}
+
+
           
