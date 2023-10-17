@@ -27,16 +27,27 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd /home/ubuntu
+          [ -d DNTDoc ] && rm -rf DNTDoc
+          [ -d dotnet-twain-docs ] && rm -rf dotnet-twain-docs
+          [ -d Docs-Template-Repo-Old-Master ] && rm -rf Docs-Template-Repo-Old-Master
           [ ! -d DNTDoc ] && mkdir -p DNTDoc
-          [ ! -d dotnet-twain-docs ] && git clone --depth 1 https://github.com/Dynamsoft/dotnet-twain-docs.git
-          cd dotnet-twain-docs && git pull && cd .. && cp -rfp ./dotnet-twain-docs/* ./DNTDoc/
-          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DNTDoc/
-          cd DNTDoc && bundle exec jekyll build --incremental
+          git clone --depth 1 https://github.com/dynamsoft-docs/dotnet-twain-docs.git dotnet-twain-docs
+          git clone --depth 1 --branch old-master https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Old-Master
+          cp -rfp ./dotnet-twain-docs/* ./DNTDoc/
+          cp -rfp ./Docs-Template-Repo-Old-Master/* ./DNTDoc/
+          cd DNTDoc && bundle install && bundle exec jekyll build
+
           python3 /home/ubuntu/ftp.py /home/ubuntu/DNTDoc/_site/ ./www.dynamsoft.com/dotnet-twain/docs/ prod
 
       - name: Trigger Webhook 
         run: | 
           curl -X POST -H "${{ secrets.WEBHOOK_USER }}" -H "${{ secrets.WEBHOOK_TOKEN }}" -H "Content-Type: application/json" -d "[\"/dotnet-twain/docs/*\"]" ${{ secrets.WEBHOOK_URL }}
 
+      - name: Run a multi-line script
+        run: |
+          cd /home/ubuntu
+          [ -d DNTDoc ] && rm -rf DNTDoc
+          [ -d dotnet-twain-docs ] && rm -rf dotnet-twain-docs
+          [ -d Docs-Template-Repo-Old-Master ] && rm -rf Docs-Template-Repo-Old-Master
 
           
